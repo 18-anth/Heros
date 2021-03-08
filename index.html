@@ -1,0 +1,169 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Heroes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/61f7849f71.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/principal.css">
+        <link rel="stylesheet" type="text/css" href="css/Splashscreen.css">
+        <link rel="stylesheet" type="text/css" href="css/carrusel.css">
+        <link rel="stylesheet" type="text/css" href="css2/responsive.css">
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript">
+            $(function() {
+            $('.translate').click(function() {
+              var lang = $(this).attr('id');
+      
+              $('.lang').each(function(index, item) {
+                $(this).text(arrLang[lang][$(this).attr('key')]);
+              });
+            });
+          });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="loader-container">
+                <div class="loader">
+                    
+                </div>
+                
+            </div>
+            <div class="header-content">
+                <div id="ctn-icon-search">
+                 
+                    <i class="fas fa-search" id="icon-search" aria-hidden="true"></i>
+                
+                </div>
+                
+
+                <div class="container-categoria"> 
+                    <a href="#"><button class="marv" for="Principal">Inicio</button></a> 
+                    <a href="marvel.html"><button class="marv"  for="Marvel">Marvel</button></a> 
+                    <a href="dc.html"><button class="marv" for="Dc">Dc</button></a> 
+
+                </div>
+            </div>
+           
+
+
+        </header>
+        <div class="container-all">
+            <div id="ctn-bars-search">
+                <input type="text" id="inputSearch" placeholder="Search">
+            </div>
+         <!-----------------------------------------------Buscador------------------------------------------>
+            <ul id="box-search">
+                <li><a href="dc.html"><i class="fas fa-search"></i>Dc</a></li>
+                <li><a href="marvel.html"><i class="fas fa-search"></i>Marvel</a></li>
+            </ul>
+        
+            <div id="cover-ctn-search"></div>
+
+        </div>
+<!---------------------------------------------------Carrusel------------------------------------------------------->
+<center>
+    <br> <br> <br> <br>          
+    <div class="container-call">
+        <div class="space"><h1><a href="dc.html">Hero of Dc</a></h1></div>
+          
+        <br> <br> 
+        <div class="container-carrousel">
+           
+                
+                <figure><img src="heroes/dc-arrow.jpg"></figure>
+                <figure><img src="heroes/dc-batman.jpg"></figure>
+                <figure><img src="heroes/dc-black.jpg"></figure>
+                <figure><img src="heroes/dc-blue.jpg"></figure>
+                <figure><img src="heroes/dc-flash.jpg"></figure>
+                <figure><img src="heroes/dc-green.jpg"></figure>
+                <figure><img src="heroes/dc-martian.jpg"></figure>
+                <figure><img src="heroes/dc-robin.jpg"></figure>
+                <figure>
+                    <img src="heroes/dc-superman.jpg">
+                </figure>
+                <figure>
+                    <img src="heroes/dc-wonder.jpg">
+                </figure>
+         </div>
+    </div>
+    <br>     <br>   <br>   <br>     <br>       <br>   <br>       <br> 
+    <div class="container-call">
+        <div class="space">
+            <h1><a href="marvel.html">Hero of Marvel</a></h1> 
+        </div>
+         
+        <br>   <br>     
+        <div class="container-carrousel">
+                     
+            <figure>
+                <img src="heroes/marvel-captain.jpg">
+            </figure>
+
+            <figure>
+                <img src="heroes/marvel-cyclops.jpg">
+            </figure>
+
+            <figure>
+                <img src="heroes/marvel-daredevil.jpg">
+            </figure>
+
+            <figure>
+                <img src="heroes/marvel-hawkeye.jpg">
+            </figure>
+
+            <figure>
+                <img src="heroes/marvel-hulk.jpg">
+            </figure>
+
+                <figure>
+                    <img src="heroes/marvel-iron.jpg">
+                </figure>
+ 
+                <figure>
+                    <img src="heroes/marvel-silver.jpg">
+                </figure>
+ 
+                <figure>
+                    <img src="heroes/marvel-spider.jpg">
+                </figure>
+ 
+                <figure>
+                    <img src="heroes/marvel-thor.jpg">
+                </figure>
+ 
+                <figure>
+                    <img src="heroes/marvel-wolverine.jpg">
+                </figure>
+ 
+         </div>
+    </div>
+</center>
+    <br>          
+    <div class="container-fooder">
+        <footer>
+           
+            <hr>
+            <h4>
+                @CopyRigth Heros 2021 - Todos los Derechos Reservados
+            </h4>
+        </footer>
+    </div>
+
+    <script>
+            $(window).on("load", function() {
+                $(".loader-container").fadeOut(4000);
+            });
+        </script>
+        
+        <script src="main.js"></script>
+       
+    </body>
+</html>
