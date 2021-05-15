@@ -27,5 +27,10 @@ LUEGO TENEMOS A MARVEL:
 ![marvel](https://user-images.githubusercontent.com/72144025/118346315-24fb2b80-b500-11eb-8e15-0b949dce5fc0.png)
 
 
+Despliegue con un click en la imagen:
+
+
+![popap_heroes](https://user-images.githubusercontent.com/72144025/118372152-bb1d6900-b575-11eb-9397-6b800b458f5f.png)
+
 
 
