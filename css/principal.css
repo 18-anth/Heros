@@ -4,8 +4,23 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
+*{
+	scrollbar-width: rhin;
+	scrollbar-color: hsla(0, 0%, 60.8%, 0.5) transparent;
+  }
+  ::-webkit-scrollbar {
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+	background-color: rgb(77, 208, 225);
+	border-radius: 20px;
+	border: transparent;
+  }
 body{
     background: #f9f9faf1;
 }
@@ -68,16 +83,17 @@ header {
     background: rgb(245, 246, 247);
     width: 800px;
     color: rgb(0, 0, 0);
-    box-shadow: 0 4px 25px -22px rgb(12, 12, 12);
+    box-shadow: 0 0px 25px 0px rgb(0,0,0, 0.5);
     z-index: 10;
     font-size: 18px;
-    padding: 50px;
-    min-height: 250px;
-    border-radius: 22px;
-    position: absolute;
-    left:20%;
-    top: 20%;
+    padding: 20px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     display: none;
+    margin-left: 20%;
+
 }
 /*--------------------------------------------------SEARCH-----------------------------------------------------*/
 #ctn-bars-search, #ctn-bars-search input, #box-search {
@@ -247,12 +263,20 @@ article, aside, nav, section h1 {
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
 }
-
+.container-all .comtainer-content div h3{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /*--------------------------------------------------IMAGENES MARGEN----------------------------------------------*/
 img{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 300px;
     height: 350px;
+    margin: 10px;
     box-shadow: 0px 0px 5px 0px black;
 }
 
@@ -274,6 +298,15 @@ img{
     }
 }
 @media screen and (max-width: 500px){ 
+    .ventana{
+        margin: 5px;
+        width: 480px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     .container-all {
         transition: all 300ms cubic-bezier(1,0,0,1);
     }

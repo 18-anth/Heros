@@ -8,67 +8,66 @@
     border-radius: 4px;
     overflow-y: auto;
 }
+
 .tama:hover{
     opacity: 50%;
 }
 .container-text{
     text-align: center;
 }
-
+#showjjj{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #0201016c;
+}
 #showmore{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #mamar{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #showjjj{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #Hawkeye-o{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #daredevil-o{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #spider-man{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #iron-man{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #hulk-lard{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #thort{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;
 }
 #wolverine-300{
-    width: -500px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: #0201016c;   
 }
-.lollalal{
-    margin-top: -260px;
-    margin-left: 270px;
-}
-.popap-img{
-    margin-right: -150px;
-}
+
