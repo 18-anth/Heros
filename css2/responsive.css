@@ -4,7 +4,6 @@
     .container-call,
     .container-carrousel{
         max-width: 500px;
-        padding: 0 20px;
     }
 }
 @media screen and (max-width: 400px){ 
